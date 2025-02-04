@@ -1,0 +1,1 @@
+export * as auctionsController from "./auctionsController"

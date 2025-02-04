@@ -1,0 +1,18 @@
+.card {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.username {
+  font-family: "bold";
+  color: #2c82c9;
+  margin-right: 20px;
+}
+
+.bid {
+  font-family: "regular";
+}

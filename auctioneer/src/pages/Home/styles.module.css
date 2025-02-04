@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  align-items: center;
+}
+
+.auctionArea {
+  width: 500px;
+  padding: 20px;
+}
+
+.auctionForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auctionForm input,
+.auctionForm textarea {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.auctionForm input {
+  height: 35px;
+  border: 2px solid #ccc;
+  font-family: "regular";
+  font-size: 1rem;
+  text-align: center;
+}
+
+.auctionForm textarea {
+  height: 70px;
+  font-family: "regular";
+  resize: vertical;
+}
+
+.auctionForm input[type="submit"] {
+  background-color: #555;
+  color: white;
+  font-family: "bold";
+  padding: 10px 0;
+  width: 250px;
+  border: none;
+  font-size: 1.25rem;
+  height: auto;
+  cursor: pointer;
+}
