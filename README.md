@@ -110,7 +110,7 @@ leilao/
 ```bash
 # Clonar repositório
  git clone <repository-url>
- cd leilao
+ cd leilao-websocket
 
 ```
 
